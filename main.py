@@ -71,25 +71,6 @@ def move_left(row):
     return row
 
 
-"""def reverse_row(row):
-    rev = []
-    for i in range(len(row)-1, -1, -1):
-        rev.append(row[i])
-
-    return rev
-
-
-def transpose_board(board):
-    for i in range(board_size):
-        for j in range(i, board_size):
-            if i != j:
-                x = board[i][j]
-                board[i][j] = board[j][i]
-                board[j][i] = x
-
-    return board"""
-
-
 def compare(A, B):
     for i in range(board_size):
         for j in range(board_size):
